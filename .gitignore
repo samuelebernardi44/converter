@@ -1,0 +1,59 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains maintainer specific settings.
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Ignore all flutter generated platforms to fix large git diff issue during submission. Only include required permission configs.
+omnitool/ios/
+omnitool/android/
+omnitool/windows/
+omnitool/macos/
+omnitool/linux/
+omnitool/web/
+!omnitool/ios/Runner/Info.plist
+!omnitool/android/app/src/main/AndroidManifest.xml
+!omnitool/macos/Runner/Info.plist
+
+ios/
+android/
+windows/
+macos/
+linux/
+web/
